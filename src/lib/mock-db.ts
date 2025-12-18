@@ -39,7 +39,7 @@ export type ElectionResult = {
   }[];
 };
 
-function getAuthHeaders(): Record<string, string> {
+function getAuthHeaders() {
   const token = localStorage.getItem("access_token");
   const headers: Record<string, string> = { "Content-Type": "application/json" };
   if (token) {
