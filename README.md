@@ -38,7 +38,6 @@ The modern, responsive user interface for the SecureVote blockchain voting platf
 
 ### 2. Install Dependencies
 ```bash
-<<<<<<< HEAD
 npm install
 # or
 yarn install
@@ -122,17 +121,3 @@ Ensure your backend provides the following endpoints:
 ```
 
 ## 🤝 License
-
-This project is open-source and available under the MIT License.
-=======
-cd Backend
-# Create virtual env (optional but recommended)
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the server
-uvicorn main:app --reload --port 8000
->>>>>>> 221855a (little changes in docs)
